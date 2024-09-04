@@ -1,12 +1,12 @@
 # https://judge.beecrowd.com/en/problems/view/1001
 
 # addition
-def beginner1001(x,y):
+def beginner1001_sum(x,y):
     return x+y
 
 # print result
 def beginner1001_print(x,y):
-    return(f"X = {beginner1001(x,y)}")
+    return(f"X = {beginner1001_sum(x,y)}")
 
 
 if __name__ == "__main__":
