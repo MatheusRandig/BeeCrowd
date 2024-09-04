@@ -1,12 +1,13 @@
 # https://judge.beecrowd.com/en/problems/view/1002
 
 # Circle area
-def beginner1002_circleArea(x):
-    return x*x*3.14159
+def circle_area(r, digits):
+    result = ('{:.'+str(digits)+'f}').format(r*r*3.14159)
+    return result
 
 # print result
-def beginner1002_print(x):
-    return(f"X = {beginner1002_circleArea(x)}")
+def output_print(x):
+    return(f"A={circle_area(x,4)}")
 
 
 if __name__ == "__main__":
@@ -14,4 +15,4 @@ if __name__ == "__main__":
     x = float(input())
 
     #print result
-    print(beginner1002_print(x))
+    print(output_print(x))
