@@ -5,6 +5,7 @@ def circle_area(r, digits):
     result = ('{:.'+str(digits)+'f}').format(r*r*3.14159)
     return result
 
+
 # print result
 def output_print(x):
     return(f"A={circle_area(x,4)}")
