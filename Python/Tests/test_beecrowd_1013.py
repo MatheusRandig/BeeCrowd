@@ -10,7 +10,7 @@ def test_beginner1013_biggest_int_number_oneliner_two():
     assert result == 217
 
 
-#check exercise output
+# check exercise output
 def test_beginner1013_print_one():
     result = beecrowd_1013.output_print("7 14 106")
     assert result == "106 eh o maior"
