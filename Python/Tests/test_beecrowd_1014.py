@@ -1,6 +1,6 @@
 from Python.Problems import beecrowd_1014
 
-# check area rectangle triangle
+# check litter to km function
 def test_beginner1014_liter_km_one():
     result = beecrowd_1014.liter_km(500,35.0,3)
     assert result == "14.286"

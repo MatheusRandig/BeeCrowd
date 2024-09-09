@@ -1,6 +1,6 @@
 from Python.Problems import beecrowd_1013
 
-# check area rectangle triangle
+# check biggest int number
 def test_beginner1013_biggest_int_number_oneliner_one():
     result = beecrowd_1013.biggest_int_number_oneliner("7 14 106")
     assert result == 106

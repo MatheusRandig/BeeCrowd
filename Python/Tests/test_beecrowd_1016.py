@@ -1,6 +1,6 @@
 from Python.Problems import beecrowd_1016
 
-# check area rectangle triangle
+# check distance calc
 def test_beginner1016_distance_calc_one():
     result = beecrowd_1016.distance_calc(60,90,30)
     assert result == 60.0
