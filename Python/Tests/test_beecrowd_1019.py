@@ -19,7 +19,7 @@ def test_beginner1019_seconds_to_minutes_one():
     result = beecrowd_1019.seconds_to_minutes(556)
     assert result == 9
 
-def test_beginner1019_output_print_two():
+def test_beginner1019_seconds_to_minutes_two():
     result = beecrowd_1019.seconds_to_minutes(1)
     assert result == 0
 
