@@ -1,6 +1,6 @@
 # https://judge.beecrowd.com/en/problems/view/1040
 
-
+#def
 media = ((n1 * 2) + (n2 * 3) + (n3 * 4) + (n4 * 1)) / 10
 
 print(f"Media: {media:.1f}")
@@ -27,4 +27,4 @@ else:
 if __name__ == "__name__":
     v = [float(x) for x in input().split()]
 
-    print()
+    print(output_print(v[0], v[1], v[2], v[3]))

@@ -1,7 +1,7 @@
 # https://judge.beecrowd.com/en/problems/view/1038
 
 # Menu with prices of each code
-def snack_menu(code, quantity):
+def snack_menu(code: int, quantity: int) -> float:
     match code:
         case 1:
             value = 4.00
@@ -20,12 +20,12 @@ def snack_menu(code, quantity):
 
 
 # returns the output of the exercise
-def output_print(x, y):
+def output_print(x: int, y: int) -> str:
     return "Total: R$ " + str("{:.2f}".format(snack_menu(x, y)))
 
 
 # User input
 if __name__ == "__main__":
-    x, y = [float(x) for x in input().split()]
+    x, y = [int(x) for x in input().split()]
 
     print(output_print(x, y))
