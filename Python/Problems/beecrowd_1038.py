@@ -1,4 +1,4 @@
-#https://judge.beecrowd.com/en/problems/view/1038
+# https://judge.beecrowd.com/en/problems/view/1038
 
 # Menu with prices of each code
 def snack_menu(code, quantity):
@@ -16,16 +16,16 @@ def snack_menu(code, quantity):
         case _:
             value = 0.00
 
-    return value*quantity
-
-#returns the output of the exercise
-def output_print(x,y):
-    return "Total: R$ "+str('{:.2f}'.format(snack_menu(x,y)))
+    return value * quantity
 
 
-#User input
+# returns the output of the exercise
+def output_print(x, y):
+    return "Total: R$ " + str("{:.2f}".format(snack_menu(x, y)))
+
+
+# User input
 if __name__ == "__main__":
+    x, y = [float(x) for x in input().split()]
 
-    x,y = [float(x) for x in input().split()]
-
-    print(output_print(x,y))
+    print(output_print(x, y))

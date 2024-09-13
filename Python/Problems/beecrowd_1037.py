@@ -1,6 +1,6 @@
-#https://judge.beecrowd.com/en/problems/view/1037
+# https://judge.beecrowd.com/en/problems/view/1037
 
-#returns the interval of the float number
+# returns the interval of the float number
 def interval(n):
     if 0 <= n <= 25:
         result = "Intervalo [0,25]"
@@ -8,15 +8,14 @@ def interval(n):
         result = "Intervalo (25,50]"
     elif 50 < n <= 75:
         result = "Intervalo (50,75]"
-    elif 75 < n <=100:
+    elif 75 < n <= 100:
         result = "Intervalo (75,100]"
     else:
         result = "Fora de intervalo"
     return result
 
 
-#user input
+# user input
 if __name__ == "__main__":
-
     x = float(input())
     print(interval(x))

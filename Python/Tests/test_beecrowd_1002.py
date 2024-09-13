@@ -4,20 +4,20 @@ from Python.Problems import beecrowd_1002
 # Checking Circle Area
 def test_beginner1002_one():
     result = beecrowd_1002.circle_area(2.00, 4)
-    assert result == '12.5664'
+    assert result == "12.5664"
 
 
 def test_beginner1002_two():
     result = beecrowd_1002.circle_area(100.64, 4)
-    assert result == '31819.3103'
+    assert result == "31819.3103"
 
 
 def test_beginner1002_three():
     result = beecrowd_1002.circle_area(150.00, 4)
-    assert result == '70685.7750'
+    assert result == "70685.7750"
 
 
-#Checking output
+# Checking output
 def test_beginner1002_print_one():
     result = beecrowd_1002.output_print(2.00)
     assert result == "A=12.5664"

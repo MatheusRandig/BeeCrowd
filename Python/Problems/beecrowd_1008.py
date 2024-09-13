@@ -1,13 +1,14 @@
-#https://judge.beecrowd.com/en/problems/view/1008
+# https://judge.beecrowd.com/en/problems/view/1008
 
 
-#Number
+# Number
 def employee_number(x):
-    return("NUMBER = "+str(x))
+    return "NUMBER = " + str(x)
 
-def salary(y,z):
-    result = '{:.2f}'.format(y*z)
-    return("SALARY = U$ "+str(result))
+
+def salary(y, z):
+    result = "{:.2f}".format(y * z)
+    return "SALARY = U$ " + str(result)
 
 
 if __name__ == "__main__":
@@ -16,4 +17,4 @@ if __name__ == "__main__":
     z = float(input())
 
     print(employee_number(x))
-    print(salary(y,z))
+    print(salary(y, z))
