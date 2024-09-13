@@ -6,9 +6,7 @@
 # Value2 has 3 weight
 # Value3 has 5 weight
 def average_2_3_5(value1, value2, value3, digits):
-    result = ("{:." + str(digits) + "f}").format(
-        ((value1 * 2) + (value2 * 3) + (value3 * 5)) / 10
-    )
+    result = ("{:." + str(digits) + "f}").format(((value1 * 2) + (value2 * 3) + (value3 * 5)) / 10)
     return result
 
 
