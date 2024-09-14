@@ -1,5 +1,5 @@
 from Python.Problems import beecrowd_1040
-
+from _pytest.monkeypatch import MonkeyPatch
 
 # check student average function
 def test_beginner1040_average_student_one() -> None:
@@ -29,7 +29,7 @@ def test_beginner1040_recu_student_two() -> None:
 
 
 # check desired output
-def test_beginner1040_output_print_one(monkeypatch) -> None:
+def test_beginner1040_output_print_one(monkeypatch: MonkeyPatch) -> None:
     monkeypatch.setattr("builtins.input", lambda: 6.4)
     result = beecrowd_1040.output_print(2.0, 4.0, 7.5, 8.0)
     assert (
