@@ -2,7 +2,7 @@
 
 
 # Returns the R1 and R2 of bhaskara, if not possible return "Impossivel calcular"
-def bhaskara(A, B, C, decimal):
+def bhaskara(A: float, B: float, C: float, decimal: int) -> str:
     delta = (B**2) - 4 * A * C
 
     if delta > 0 and A != 0:

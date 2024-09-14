@@ -2,43 +2,43 @@ from Python.Problems import beecrowd_1018
 
 
 # check banknotes function with all the possible number
-def test_beginner1018_bank_notes_mod_one():
+def test_beginner1018_bank_notes_mod_one() -> None:
     result = beecrowd_1018.bank_notes_mod(576, 100)
     assert result == 5
 
 
-def test_beginner1018_bank_notes_mod_two():
+def test_beginner1018_bank_notes_mod_two() -> None:
     result = beecrowd_1018.bank_notes_mod(76, 50)
     assert result == 1
 
 
-def test_beginner1018_bank_notes_mod_three():
+def test_beginner1018_bank_notes_mod_three() -> None:
     result = beecrowd_1018.bank_notes_mod(26, 20)
     assert result == 1
 
 
-def test_beginner1018_bank_notes_mod_four():
+def test_beginner1018_bank_notes_mod_four() -> None:
     result = beecrowd_1018.bank_notes_mod(6, 10)
     assert result == 0
 
 
-def test_beginner1018_bank_notes_mod_five():
+def test_beginner1018_bank_notes_mod_five() -> None:
     result = beecrowd_1018.bank_notes_mod(6, 5)
     assert result == 1
 
 
-def test_beginner1018_bank_notes_mod_six():
+def test_beginner1018_bank_notes_mod_six() -> None:
     result = beecrowd_1018.bank_notes_mod(1, 2)
     assert result == 0
 
 
-def test_beginner1018_bank_notes_mod_seven():
+def test_beginner1018_bank_notes_mod_seven() -> None:
     result = beecrowd_1018.bank_notes_mod(1, 1)
     assert result == 1
 
 
 # check exercise output
-def test_beginner1018_print_one():
+def test_beginner1018_print_one() -> None:
     result = beecrowd_1018.output_print(576)
     assert (
         result
@@ -46,7 +46,7 @@ def test_beginner1018_print_one():
     )
 
 
-def test_beginner1018_print_two():
+def test_beginner1018_print_two() -> None:
     result = beecrowd_1018.output_print(11257)
     assert (
         result
@@ -54,7 +54,7 @@ def test_beginner1018_print_two():
     )
 
 
-def test_beginner1018_print_three():
+def test_beginner1018_print_three() -> None:
     result = beecrowd_1018.output_print(503)
     assert (
         result

@@ -2,11 +2,11 @@
 
 
 # Number
-def employee_number(x):
+def employee_number(x: int) -> str:
     return "NUMBER = " + str(x)
 
 
-def salary(y, z):
+def salary(y: int, z: float) -> str:
     result = "{:.2f}".format(y * z)
     return "SALARY = U$ " + str(result)
 

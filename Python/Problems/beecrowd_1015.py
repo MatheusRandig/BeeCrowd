@@ -1,7 +1,7 @@
 # https://judge.beecrowd.com/en/problems/view/1015
 
 
-def distance_points(x, y, digits):
+def distance_points(x: str, y: str, digits: int) -> str:
     x1, y1 = [float(i) for i in x.split()]
     x2, y2 = [float(i) for i in y.split()]
 

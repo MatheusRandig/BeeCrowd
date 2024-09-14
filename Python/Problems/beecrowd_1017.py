@@ -2,7 +2,7 @@
 
 
 # Returns amount of fuel need for a trip
-def liter_needed(hours, km, usage, decimal):
+def liter_needed(hours: int, km: int, usage: int, decimal: int) -> str:
     result = km * hours / usage
     return ("{:." + str(decimal) + "f}").format(result)
 

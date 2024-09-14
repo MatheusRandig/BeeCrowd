@@ -1,17 +1,17 @@
 # https://judge.beecrowd.com/en/problems/view/1020
 
 # Returns years of days
-def days_to_years(days):
+def days_to_years(days: int) -> int:
     return days // 365
 
 
 # Returns month of days
-def days_to_month(days):
+def days_to_month(days: int) -> int:
     return days // 30
 
 
 # Returns the exercise output
-def output_print(days):
+def output_print(days: int) -> str:
     years = days_to_years(days)
     result = str(years) + " ano(s)\n"
     days -= years * 365

@@ -1,12 +1,12 @@
 # https://judge.beecrowd.com/en/problems/view/1010
 
 # Returns the total price of a product, the product of quantity and value
-def total_price(value, quantity):
+def total_price(value: float, quantity: float) -> float:
     return value * quantity
 
 
 # Returns the correct output for the exercise
-def output_print(p1, q1, p2, q2):
+def output_print(p1: float, q1: float, p2: float, q2: float) -> str:
     return "VALOR A PAGAR: R$ " + "{:.2f}".format(total_price(p1, q1) + total_price(p2, q2))
 
 

@@ -5,13 +5,13 @@
 # Value1 has 2 weight
 # Value2 has 3 weight
 # Value3 has 5 weight
-def average_2_3_5(value1, value2, value3, digits):
+def average_2_3_5(value1: float, value2: float, value3: float, digits: int) -> str:
     result = ("{:." + str(digits) + "f}").format(((value1 * 2) + (value2 * 3) + (value3 * 5)) / 10)
     return result
 
 
 # print result
-def output_print(x, y, z):
+def output_print(x: float, y: float, z: float) -> str:
     return f"MEDIA = {average_2_3_5(x,y,z,1)}"
 
 

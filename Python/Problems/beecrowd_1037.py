@@ -1,7 +1,7 @@
 # https://judge.beecrowd.com/en/problems/view/1037
 
 # returns the interval of the float number
-def interval(n):
+def interval(n: float) -> str:
     if 0 <= n <= 25:
         result = "Intervalo [0,25]"
     elif 25 < n <= 50:

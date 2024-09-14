@@ -1,12 +1,12 @@
 # https://judge.beecrowd.com/en/problems/view/1018
 
 # Returns number of notes from determined size
-def bank_notes_mod(total, size):
+def bank_notes_mod(total: int, size: int) -> int:
     return total // size
 
 
 # Returns the exercise output
-def output_print(total):
+def output_print(total: int) -> str:
     result = (str(total)) + "\n"
 
     notes = bank_notes_mod(total, 100)

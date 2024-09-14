@@ -2,12 +2,12 @@
 
 
 # Returns number of notes from determined size with decimal digits of precision
-def bank_notes_mod(total, size, decimal):
+def bank_notes_mod(total: float, size: float, decimal: int) -> float:
     return round((total // size), decimal)
 
 
 # Returns the exercise output
-def output_print(total):
+def output_print(total: float) -> str:
     result = "NOTAS:\n"
 
     notes = bank_notes_mod(total, 100, 3)

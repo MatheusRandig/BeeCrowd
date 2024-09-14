@@ -1,17 +1,17 @@
 # https://judge.beecrowd.com/en/problems/view/1019
 
 # Returns hours in SEConds
-def seconds_to_hours(sec):
+def seconds_to_hours(sec: int) -> int:
     return sec // 3600
 
 
 # Returns minutes in SEConds
-def seconds_to_minutes(sec):
+def seconds_to_minutes(sec: int) -> int:
     return sec // 60
 
 
 # Returns the exercise output
-def output_print(sec):
+def output_print(sec: int) -> str:
     hour = seconds_to_hours(sec)
     result = str(hour) + ":"
     sec = sec - (hour * 3600)
