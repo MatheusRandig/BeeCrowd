@@ -1,6 +1,7 @@
 from Python.Problems import beecrowd_1040
 from _pytest.monkeypatch import MonkeyPatch
 
+
 # check student average function
 def test_beginner1040_average_student_one() -> None:
     result = beecrowd_1040.average_student(2.0, 4.0, 7.5, 8.0, 1)
