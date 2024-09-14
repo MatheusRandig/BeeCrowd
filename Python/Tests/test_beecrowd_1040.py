@@ -1,5 +1,6 @@
-from Python.Problems import beecrowd_1040
 from _pytest.monkeypatch import MonkeyPatch
+
+from Python.Problems import beecrowd_1040
 
 
 # check student average function
