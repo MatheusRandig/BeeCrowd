@@ -3,19 +3,12 @@ from Python.Problems import beecrowd_1044
 
 # check multiples
 def test_beginner1044_multiples_one() -> None:
-    check = 0
-    result = beecrowd_1044.multiples(6, 24)
-    if result:
-        check = 1
-    assert check == 1
+    assert beecrowd_1044.multiples(6, 24)
 
 
+# check multiples
 def test_beginner1044_multiples_two() -> None:
-    result = beecrowd_1044.multiples(6, 25)
-    check = 0
-    if not result:
-        check = 1
-    assert check == 1
+    assert not beecrowd_1044.multiples(6, 25)
 
 
 # check exercise output
