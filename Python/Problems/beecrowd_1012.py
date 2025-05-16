@@ -33,11 +33,11 @@ def area_rectangle(side_a: float, side_b: float, digits: int) -> str:
 # Returns the exercise output
 def output_print(a: float, b: float, c: float) -> str:
     return (
-        f"TRIANGULO: {area_rectangle_triangle(a, c,3)}\n"
-        f"CIRCULO: {area_circle(c,3)}\n"
-        f"TRAPEZIO: {area_trapezium(a,b,c,3)}\n"
-        f"QUADRADO: {area_square(b,3)}\n"
-        f"RETANGULO: {area_rectangle(a,b,3)}"
+        f"TRIANGULO: {area_rectangle_triangle(a, c, 3)}\n"
+        f"CIRCULO: {area_circle(c, 3)}\n"
+        f"TRAPEZIO: {area_trapezium(a, b, c, 3)}\n"
+        f"QUADRADO: {area_square(b, 3)}\n"
+        f"RETANGULO: {area_rectangle(a, b, 3)}"
     )
 
 

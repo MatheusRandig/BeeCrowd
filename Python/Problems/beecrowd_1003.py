@@ -7,7 +7,7 @@ def addition(x: int, y: int) -> int:
 
 # print result
 def output_print(x: int, y: int) -> str:
-    return f"SOMA = {addition(x,y)}"
+    return f"SOMA = {addition(x, y)}"
 
 
 if __name__ == "__main__":

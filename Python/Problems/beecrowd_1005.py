@@ -11,7 +11,7 @@ def average_35_75(value1: float, value2: float, digits: int) -> str:
 
 # print result
 def output_print(x: float, y: float) -> str:
-    return f"MEDIA = {average_35_75(x,y,5)}"
+    return f"MEDIA = {average_35_75(x, y, 5)}"
 
 
 if __name__ == "__main__":

@@ -7,6 +7,7 @@ def zero_to_hundred() -> str:
         result += str((i + 1) * 2) + "\n"
     return result + "100"
 
+
 # Exercise call and print
 if __name__ == "__main__":
     print(zero_to_hundred())

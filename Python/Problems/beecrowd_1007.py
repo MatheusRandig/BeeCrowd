@@ -13,7 +13,7 @@ def dif(a: int, b: int, c: int, d: int) -> int:
 
 # print result
 def output_print(a: int, b: int, c: int, d: int) -> str:
-    return f"DIFERENCA = {int(dif(a,b,c,d))}"
+    return f"DIFERENCA = {int(dif(a, b, c, d))}"
 
 
 if __name__ == "__main__":

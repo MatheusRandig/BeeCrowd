@@ -8,7 +8,7 @@ def circle_area(r: float, digits: int) -> str:
 
 # print result
 def output_print(x: float) -> str:
-    return f"A={circle_area(x,4)}"
+    return f"A={circle_area(x, 4)}"
 
 
 if __name__ == "__main__":

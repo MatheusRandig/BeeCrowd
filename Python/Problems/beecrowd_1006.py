@@ -12,7 +12,7 @@ def average_2_3_5(value1: float, value2: float, value3: float, digits: int) -> s
 
 # print result
 def output_print(x: float, y: float, z: float) -> str:
-    return f"MEDIA = {average_2_3_5(x,y,z,1)}"
+    return f"MEDIA = {average_2_3_5(x, y, z, 1)}"
 
 
 if __name__ == "__main__":
