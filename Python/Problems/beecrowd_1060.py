@@ -12,5 +12,5 @@ def positive_numbers(numbers: list[float]) -> int:
 # Exercise call and print
 if __name__ == "__main__":
     print(
-        f"{positive_numbers([input(), input(), input(), input(), input(), input()])} valores positivos"
+        f"{positive_numbers([float(input()), float(input()), float(input()), float(input()), float(input()), float(input())])} valores positivos"
     )
