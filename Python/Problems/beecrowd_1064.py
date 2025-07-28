@@ -2,7 +2,9 @@
 
 # Given a list returns a tuple with (total, count of positives)
 # The function accpets previous values to total and positives numbers, to continue a given average.
-def average_of_positives(values: list[float], positives_count: int, total: float) -> float:
+def average_of_positives(
+    values: list[float], positives_count: int, total: float
+) -> tuple[float, int]:
     for i in values:
         if i > 0:
             positives_count = positives_count + 1
