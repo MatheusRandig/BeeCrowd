@@ -13,7 +13,7 @@ def average_of_positives(
 
 
 # Format to excersise
-def output_1064(list_input: float) -> str:
+def output_1064(list_input: list[float]) -> str:
     result = average_of_positives(list_input, 0, 0)
     if result[1] == 0:
         return "Sem Valores Positivos"
