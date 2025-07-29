@@ -10,7 +10,7 @@ def count_between_5(values: list[float]) -> int:
 
 
 # Format to excersise
-def output_1065(list_input: float) -> str:
+def output_1065(list_input: list[float]) -> str:
     result = count_between_5(list_input)
     return str(result) + " valores pares"
 
