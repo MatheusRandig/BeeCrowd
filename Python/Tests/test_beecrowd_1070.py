@@ -1,7 +1,7 @@
 from Python.Problems import beecrowd_1070
 
 
-# check aodd_zero_to_range of exercise 1067
+# check aodd_zero_to_range of exercise 1070
 def test_beginner1070_next_six_odd_one() -> None:
     result = beecrowd_1070.next_six_odd(8)
     assert result == ([9, 11, 13, 15, 17, 19])

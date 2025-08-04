@@ -1,4 +1,4 @@
-# https://judge.beecrowd.com/en/problems/view/1067
+# https://judge.beecrowd.com/en/problems/view/1070
 
 # Given int n return a int list of next 6 odd numbers
 def next_six_odd(n: int) -> list[int]:
